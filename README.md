@@ -1,3 +1,10 @@
+# Aplicação em React
+
+Esse projeto:
+
+- Permite ler uma frase da sorte sorteada aleatoriamente quando o botão for apertado.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
