@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import biscoito from './assets/biscoito.png';
 import './estilo.css';
 
 class App extends Component{
@@ -28,7 +29,7 @@ class App extends Component{
     render(){
         return(
             <div className="container">
-                 <img src={require('./assets/biscoito.png')} className="img" />
+                 <img src={biscoito} className="img" />
                  <Botao nome="Abrir biscoito" acaoBtn={this.quebraBiscoito}/>
                  <h3 className="textoFrase">{this.state.textoFrase}</h3>
             </div>         
